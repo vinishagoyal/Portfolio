@@ -229,4 +229,13 @@ export const Icons = {
       />
     </svg>
   ),
+  googleDocs: (props: IconProps) => (
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>
+      <title>Google Docs</title>
+      <path
+        fill="currentColor"
+        d="M14.727 6.727H9.273v1.636h5.454V6.727zm0 2.182H9.273v1.636h5.454V8.909zm-2.182 2.182H9.273v1.636h3.272v-1.636zM19.636 2.182H4.364C3.273 2.182 2.364 3.091 2.364 4.182v15.636c0 1.091.909 2 2 2h15.272c1.091 0 2-.909 2-2V4.182c0-1.091-.909-2-2-2zm0 17.636H4.364V4.182h15.272v15.636z"
+      />
+    </svg>
+  ),
 };

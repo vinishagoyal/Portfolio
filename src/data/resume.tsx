@@ -13,19 +13,44 @@ export const DATA = {
     "I am a Marketing Research Analyst with experience in analyzing market trends, creating data visualizations, and managing social media campaigns. I have a strong background in business intelligence and financial analysis, with a Master of Business Administration degree in progress and a Bachelor of Commerce already completed.",
   avatarUrl: "/me.png",
   skills: [
+    // Product Management & Strategy
+    "Requirements Gathering",
+    "Stakeholder Management",
+    "Product Strategy",
+    "User Story Writing",
+    "Market Research",
+    "Competitive Analysis",
+    "KPI Definition & Tracking",
+    "A/B Testing",
+    "Cross-functional Collaboration",
+    "Product Roadmapping",
+    
+    // AI & Technology
+    "Generative AI",
+    "RAG (Retrieval Augmented Generation)",
+    "Agentic AI",
+    "LLM Integration",
+    "AI Product Strategy",
+    
+    // Data & Analytics
     "Research",
     "Data Analysis",
     "Data Visualization",
     "Database Management",
     "Business Intelligence",
-    "Advance Excel",
+    "Advanced Excel",
     "SQL",
     "Power BI",
-    "GitHub",
     "E-Views",
     "R",
-    "Microsoft Powerpoint",
+    "Python",
     "Social Analytics",
+    
+    // Technical & Tools
+    "GitHub",
+    "Microsoft Powerpoint",
+    
+    // Soft Skills
     "Problem Solving",
     "Project Management",
     "Adaptability",
@@ -126,6 +151,62 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Health360 AI Customer Chatbot",
+      href: "/projects/health360-chatbot",
+      dates: "September 2025",
+      active: true,
+      description:
+        "Conceptualized and delivered an AI-powered customer support solution from ideation to production for Health360 Health Supplements. Conducted market research, stakeholder interviews, and requirements gathering. Designed product architecture, managed development lifecycle, and implemented intelligent query routing with real-time analytics. Achieved 40-60% deflection rate and <2min response times while ensuring regulatory compliance for health supplement industry.",
+      technologies: [
+        "Product Management",
+        "AI Strategy",
+        "Generative AI",
+        "RAG",
+        "Stakeholder Management",
+        "Requirements Gathering",
+        "Analytics",
+      ],
+      links: [
+        {
+          type: "Live App",
+          href: "https://health360-ai-customer-chatbot.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "GitHub",
+          href: "https://github.com/vinishagoyal/Health360_AI_customer_chatbot",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Demo Video",
+          href: "https://youtu.be/equGpnMKYx8?si=mUVd0p-WWrTROgU5",
+          icon: <Icons.youtube className="size-3" />,
+        },
+        {
+          type: "BRD Document",
+          href: "https://docs.google.com/document/d/1z1zIDr27pgcMZdyzygvX54X5GfciW0VLgDAIVlAFKkA/edit?usp=sharing",
+          icon: <Icons.googleDocs className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "https://www.youtube.com/embed/equGpnMKYx8?si=mUVd0p-WWrTROgU5",
+    },
+    {
+      title: "Dividend Policy Analysis",
+      href: "",
+      dates: "March 2024",
+      active: false,
+      description:
+        "Performed a comprehensive financial analysis of MRF's dividend policy, including historical data, industry comparisons, and qualitative factors. Calculated dividend payout ratios, yields, and growth rates to assess the company's dividend performance. Investigated the drivers behind MRF's dividend policy and their potential to enhance shareholder value.",
+      technologies: [
+        "Financial Analysis",
+        "Dividend Policy Evaluation",
+      ],
+      links: [],
+      image: "",
+      video: "",
+    },
+    {
       title: "Sales Dashboard",
       href: "",
       dates: "November 2023",
@@ -166,21 +247,6 @@ export const DATA = {
       technologies: [
         "Business Metric Analysis",
         "Interactive Reporting",
-      ],
-      links: [],
-      image: "",
-      video: "",
-    },
-    {
-      title: "Dividend Policy Analysis",
-      href: "",
-      dates: "March 2024",
-      active: false,
-      description:
-        "Performed a comprehensive financial analysis of MRF's dividend policy, including historical data, industry comparisons, and qualitative factors. Calculated dividend payout ratios, yields, and growth rates to assess the company's dividend performance. Investigated the drivers behind MRF's dividend policy and their potential to enhance shareholder value.",
-      technologies: [
-        "Financial Analysis",
-        "Dividend Policy Evaluation",
       ],
       links: [],
       image: "",
