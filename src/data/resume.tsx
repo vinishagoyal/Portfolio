@@ -4,13 +4,13 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Vinisha Goyal",
   initials: "VG",
-  url: "http://localhost:3000",
+  url: "https://vinisha.vercel.app",
   location: "Gurugram, India",
   locationLink: "https://www.google.com/maps/place/Gurugram",
   description:
-    "Marketing Research Analyst with expertise in data analysis and visualization.",
+    "Product management candidate with experience in research, PRDs, MVP scoping, analytics, and AI-assisted rapid prototyping.",
   summary:
-    "I am a Marketing Research Analyst with experience in analyzing market trends, creating data visualizations, and managing social media campaigns. I have a strong background in business intelligence and financial analysis, with a Master of Business Administration degree in progress and a Bachelor of Commerce already completed.",
+    "Product management candidate who turns TAM and competitor teardowns into JTBD, PRDs, and measurable MVP scope. At Filo, designed SAT/ACT taxonomies and LLM eval rubrics; at Numismatics Academy, shipped 12 insight reports and a 1,000+ item catalog (+25% tracking accuracy) with growth tests (22% open, 5% conversion). Hands-on with SQL, Advanced Excel, Jira, Git/GitHub, Vercel, Supabase; comfortable with prompt engineering and AI-assisted rapid prototyping.",
   avatarUrl: "/me.png",
   skills: [
     // Product Management & Strategy
@@ -37,6 +37,7 @@ export const DATA = {
     "Data Analysis",
     "Data Visualization",
     "Database Management",
+    "Data Storytelling",
     "Business Intelligence",
     "Advanced Excel",
     "SQL",
@@ -47,10 +48,20 @@ export const DATA = {
     "Social Analytics",
     
     // Technical & Tools
+    "Git",
     "GitHub",
+    "Jira",
+    "GPT Agents",
+    "Vercel",
+    "Supabase",
+    "Cline",
+    "Rapid Prototyping",
+    "Gen AI Prompt Engineering",
+    "Documentation (BRD/PRD)",
     "Microsoft Powerpoint",
     
     // Soft Skills
+    "Ownership",
     "Problem Solving",
     "Project Management",
     "Adaptability",
@@ -103,16 +114,28 @@ export const DATA = {
 
   work: [
     {
+      company: "Filo",
+      href: "",
+      badges: [],
+      location: "Gurugram",
+      title: "Product Research - Internship",
+      logoUrl: "/filo.svg",
+      start: "Sep 2025",
+      end: "Apr 2026",
+      description:
+        "Led pre-launch SAT/ACT research, including market sizing, competitor teardowns, and scope recommendations. Turned research into problem statements, user/job stories, and acceptance criteria for v1. Built Excel trackers with tables, pivots, and lookups to standardize exam/curriculum data and speed decision docs and backlog grooming. Created LLM evaluation rubrics for accuracy, reasoning, hallucinations, and tone; logged failure modes with reproducible test cases and verified fixes. Ran student surveys, interviews, and usability checks on new SAT/ACT flows, captured top friction points, and prioritized fixes with product and content teams to improve first-time task completion and clarity.",
+    },
+    {
       company: "Numismatics Academy",
       href: "",
       badges: [],
       location: "Gurugram",
-      title: "Marketing Research Analyst",
+      title: "Marketing Research Analyst: Product - Internship",
       logoUrl: "/NAC.png",
       start: "May 2024",
       end: "Aug 2024",
       description:
-        "Analyzed market trends in the education industry, producing 12 weekly reports that informed strategic decisions. Increased social media engagement by 40% across 3 platforms through targeted content creation and campaign management. Assisted in organizing a currency exhibition, attracting over 1,500 attendees and generating 75+ qualified leads. Conducted competitor analysis of 5 major numismatic institutions, identifying 3 key areas for differentiation. Created and managed a database of 1,000+ rare currencies, improving inventory tracking efficiency by 25%. Developed and implemented an email marketing campaign that achieved a 22% open rate and 5% conversion rate.",
+        "Produced 12 weekly insight reports from primary and secondary research on the education market, surfacing 3 high-impact differentiation themes. Ran competitor teardowns across 5 institutions and converted findings into MVP feature hypotheses, JTBD, and success metrics. Designed and maintained a 1,000+ rare-currency catalog schema, improving inventory tracking efficiency by 25% and enabling BI dashboards for trend analysis. Operated growth experiments across email and social, achieving a 22% email open rate, 5% conversion rate, and 40% engagement lift across 3 platforms. Synthesized research into prioritized roadmap proposals and stakeholder briefs to guide product market-fit experiments.",
     },
   ],
   education: [
@@ -135,7 +158,7 @@ export const DATA = {
     {
       school: "Carmel Convent School",
       href: "",
-      degree: "Standard - XII, CBSE",
+      degree: "Standard - XII, CBSE - 70.8%",
       logoUrl: "/CARMEL2023NEWLOGO.png",
       start: "2018",
       end: "2019",
@@ -143,13 +166,43 @@ export const DATA = {
     {
       school: "Carmel Convent School",
       href: "",
-      degree: "Standard - X, CBSE",
+      degree: "Standard - X, CBSE - 85.5%",
       logoUrl: "/CARMEL2023NEWLOGO.png",
       start: "2016",
       end: "2017",
     },
   ],
   projects: [
+    {
+      title: "Personal Website / Portfolio",
+      href: "https://vinisha.vercel.app/",
+      dates: "September 2025",
+      active: true,
+      description:
+        "Built and deployed my portfolio site using modern development tools: wrote code locally, version-controlled via Git/GitHub, and shipped live using Vercel. Demonstrates end-to-end project ownership from documentation to publishing a clean, user-friendly web experience.",
+      technologies: [
+        "Vibe Coding",
+        "Vercel",
+        "Git",
+        "GitHub",
+        "Cline",
+        "AI-assisted Development",
+      ],
+      links: [
+        {
+          type: "Live Site",
+          href: "https://vinisha.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "GitHub",
+          href: "https://github.com/vinishagoyal",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
     {
       title: "Health360 AI Customer Chatbot",
       href: "/projects/health360-chatbot",
@@ -208,7 +261,7 @@ export const DATA = {
     },
     {
       title: "Sales Dashboard",
-      href: "",
+      href: "http://bit.ly/3IiFERT",
       dates: "November 2023",
       active: false,
       description:
@@ -218,13 +271,19 @@ export const DATA = {
         "Sales Data Analysis",
         "Forecasting",
       ],
-      links: [],
+      links: [
+        {
+          type: "Dashboard",
+          href: "http://bit.ly/3IiFERT",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
       image: "",
       video: "",
     },
     {
       title: "Road Accident Dashboard",
-      href: "",
+      href: "http://bit.ly/3KxRhF5",
       dates: "October 2023",
       active: false,
       description:
@@ -233,7 +292,13 @@ export const DATA = {
         "Data Visualization",
         "Communication Integration",
       ],
-      links: [],
+      links: [
+        {
+          type: "Dashboard",
+          href: "http://bit.ly/3KxRhF5",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
       image: "",
       video: "",
     },
